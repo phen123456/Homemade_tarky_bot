@@ -7,4 +7,4 @@ module.exports = {
     async execute(interaction) {    //Contain the functionality to run from our event handler when the command is used
         await interaction.reply('Pong!');
     },
-}
+};

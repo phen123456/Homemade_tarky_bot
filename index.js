@@ -35,11 +35,11 @@ client.once(Events.ClientReady, c => {
 	console.log(`Ready! Logged in as ${c.user.tag}`);
 });
 
-client.on(Events.InteractionCreate, interaction => {    //
+client.on(Events.InteractionCreate, interaction => {    //Create listener
 	console.log(interaction);
 });
 
-client.on(Events.InteractionCreate, interaction => {
+client.on(Events.InteractionCreate, interaction => { //Exit handler if not slash command
 	if (!interaction.isChatInputCommand()) return;
 	console.log(interaction);
 });
