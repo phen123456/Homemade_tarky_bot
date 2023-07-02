@@ -61,20 +61,123 @@ module.exports = {
         async execute (interaction, client) {
             const string = interaction.options.getString('name');
             switch(string) {
+
+/*------------- Factory Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
                 case "Factory Emergency Exit Key":
-                    const exampleEmbed = new EmbedBuilder()
-                    .setColor("#0099ff")
-                    .setTitle("Pong")
-                    .setDescription("Some description here");
-                    await interaction.reply({ embeds: [exampleEmbed] });
+                    const faccus_EmergcExit_Embed = new EmbedBuilder()
+                    .setColor("#000000")
+                    .setTitle("Factory Emergency Exit Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Factory_emergency_exit_key")
+                    .setThumbnail('attachment://FacCus_EmrgcExit.png')
+                    .setDescription("A somewhat fragile factory emergency exit door key.")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Factory, Customs, Shoreline.",
+                            inline: true
+                        },
+                        {
+                            name: "Doors Opened",
+                            value: "__Factory__: Gate 0 Extraction, Med Tent Gate Extraction, Cellars Extraction, Locked room \n" +
+                            "__Customs__: Two doors to the guard building of the crane yard next to the new gas station, Door leading to the ZB-013 Extraction in the basement of Stronghold \n" +
+                            "__Interchange__: The doors of the fuel tanker trucks \n" +
+                            "__Shoreline__: The door of the red truck at the Crane area along the beach",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "__Factory Locked Room__: 1x Jacket, One weapon spawn, Loose loot, Portable bunkhouse key spawn loaction \n" +
+                            "__Customs Guard Building__: 1x filing cabinet, 1x wooden crate (5x2), Loose loot, TerraGroup Labs arsenal storage room key spawn (On shelf under the telephone)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "32,199₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "__Customs__: Next to broken TV on the guard desk, 3 Story Dorms \n" +
+                            "__Customs__: Blue locker in large building near PC truck",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "__Jaeger LL2__: 1 Factory Emergency Exit Key(used) + 4 Iskra Ration Packs + 1 MRE Ration Pack",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "__Factory__: Gate 0, Cellars, Medical Tent Gates \n" + 
+                            "__Customs__: ZB-013",
+                            inline: false
+                        },
+                    )
+                    await interaction.reply({ embeds: [faccus_EmergcExit_Embed], files: ['././Images/Factory/FacCus_EmrgcExit.png'] });
                     break;
+
                 case "Pumping Station Back Door Key":
-                    await interaction.reply({content: 'an old soviet \n factory key labeled "Pumping Station". ' + 
-                    'optional key for Sanitary Standards - Part 1'});
-                    break;
+                    const PSBD_Embed = new EmbedBuilder()   
+                    .setColor("#000000")
+                    .setTitle("Pumping Station Back Door Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Pumping_station_back_door_key")
+                    .setThumbnail('attachment://Fac_PSBD.png')
+                    .setDescription("An old soviet factory key labeled \"Pumping Station\"")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Factory",
+                            inline: true
+                        },
+                        {
+                            name: "Doors Opened",
+                            value: "Pumping Station in Factory",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (misc.)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽3,230",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "__Factory__: On a bench in the locker room 2nd floor of office building",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [PSBD_Embed], files: ['././Images/Factory/Fac_PSBD.png'] });
+                    break;	
+
                 case "Pumping Station Front Door Key":
                     await interaction.reply({content: 'Useless'});
                     break;
+
+/*------------- Custom Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
             }
         },
     
