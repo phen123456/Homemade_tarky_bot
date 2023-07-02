@@ -127,7 +127,7 @@ module.exports = {
                     break;
 
                 case "Pumping Station Back Door Key":
-                    const PSBD_Embed = new EmbedBuilder()   
+                    const Fac_PSBD_Embed = new EmbedBuilder()   
                     .setColor("#000000")
                     .setTitle("Pumping Station Back Door Key")
                     .setURL("https://escapefromtarkov.fandom.com/wiki/Pumping_station_back_door_key")
@@ -170,13 +170,55 @@ module.exports = {
                             inline: false
                         },
                     )
-		            await interaction.reply({ embeds: [PSBD_Embed], files: ['././Images/Factory/Fac_PSBD.png'] });
+		            await interaction.reply({ embeds: [Fac_PSBD_Embed], files: ['././Images/Factory/Fac_PSBD.png'] });
                     break;	
 
                 case "Pumping Station Front Door Key":
-                    await interaction.reply({content: 'Useless'});
+                    const Fac_PSFD_Embed = new EmbedBuilder()   
+                    .setColor("#000000")
+                    .setTitle("Pumping Station Front Door Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Pumping_station_front_door_key")
+                    .setThumbnail('attachment://Fac_PSFD.png')
+                    .setDescription("An old soviet factory key labeled \"Pumping Station\"")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Factory",
+                            inline: true
+                        },
+                        {
+                            name: "Doors Opened",
+                            value: "Pumping Station in Factory",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (misc.)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽3,320",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "N/A",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Fac_PSFD_Embed], files: ['././Images/Factory/Fac_PSFD.png'] });
                     break;
-
 /*------------- Custom Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
             }
         },
