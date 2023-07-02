@@ -1,4 +1,5 @@
 const { SlashCommandBuilder } = require('discord.js'); //class to allow for / commands
+const { EmbedBuilder  } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder() //provide command defintion shown above for registering to Discord
@@ -14,10 +15,10 @@ module.exports = {
         async autocomplete(interaction, client) {
             const focusedValue = interaction.options.getFocused().toLowerCase();
             const choices = [
-                             /* Factory Keys */
-                             "Factory Emergency Exit Key", //also customs key
-                             "Pumping Station Back Door Key", 
-                             "Pumping Station Front Door Key",
+                            /* Factory Keys */
+                            "Factory Emergency Exit Key", //also customs key
+                            "Pumping Station Back Door Key", 
+                            "Pumping Station Front Door Key",
                             
                             /*Customs Keys */
                             "Gas Station Office Key",
@@ -61,7 +62,11 @@ module.exports = {
             const string = interaction.options.getString('name');
             switch(string) {
                 case "Factory Emergency Exit Key":
-                    await interaction.reply({content: 'Owen is too cool for this key'});
+                    const exampleEmbed = new EmbedBuilder()
+                    .setColor("#0099ff")
+                    .setTitle("Pong")
+                    .setDescription("Some description here");
+                    await interaction.reply({ embeds: [exampleEmbed] });
                     break;
                 case "Pumping Station Back Door Key":
                     await interaction.reply({content: 'an old soviet \n factory key labeled "Pumping Station". ' + 
