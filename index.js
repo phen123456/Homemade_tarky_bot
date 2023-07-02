@@ -2,7 +2,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { Client, Collection, Events, GatewayIntentBits } = require('discord.js')
+const { Client, Collection, Events, GatewayIntentBits, InteractionType } = require('discord.js')
 require('dotenv/config')
 
 const client = new Client({
@@ -46,24 +46,37 @@ client.on(Events.InteractionCreate, interaction => {    //Create listener
 	console.log(interaction);
 });
 
-client.on(Events.InteractionCreate, async interaction => { //Exit handler if not slash command
-	if (!interaction.isChatInputCommand()) return;
+
+client.on(Events.InteractionCreate, async interaction => {
 
 	const command = interaction.client.commands.get(interaction.commandName);
-
+	  
 	if (!command) {
 		console.error(`No command matching ${interaction.commandName} was found.`);
 		return;
 	}
-
+	  
+	if (interaction.type === InteractionType.ApplicationCommandAutocomplete) {
+		const { commands } = client;
+		const { commandName } = interaction;
+		const specCommand = commands.get(commandName);
+		if (!specCommand) return;
+	  
+		try {
+		await specCommand.autocomplete(interaction, client);
+		} catch (err) {
+		console.error(err);
+		}
+	}
+	  
 	try {
-		await command.execute(interaction);
+	await command.execute(interaction);
 	} catch (error) {
 		console.error(error);
 		if (interaction.replied || interaction.deferred) {
-			await interaction.followUp({ content: 'There was an error while executing this command!', ephemeral: true });
+		await interaction.followUp({ content: 'There was an error while executing this command! top', ephemeral: true });
 		} else {
-			await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+		await interaction.reply({ content: 'There was an error while executing this command! bottom', ephemeral: true });
 		}
 	}
 });
