@@ -1,4 +1,4 @@
-require('dotenv/config') //instead of const { clientId, guildId, token } = require('./config.json');
+require('dotenv/config') 
 
 const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
@@ -6,9 +6,7 @@ const path = require('node:path');
 
 
 // Grab all the command files from the commands directory you created earlier
-
-const commands = [];
-// Grab all the command files from the commands directory you created earlier
+const commands = []; //Commands array that stores all slash commands
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
 

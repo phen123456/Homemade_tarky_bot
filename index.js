@@ -1,21 +1,30 @@
-//Hello wordl 
+/* Paul Henling and Owen Herber Discord.js Tarkov Key Bot */
+/* July 1st 2023 */
 
-const fs = require('node:fs');
-const path = require('node:path');
-const { Client, Collection, Events, GatewayIntentBits, InteractionType } = require('discord.js')
-require('dotenv/config')
+/* With help from -
+		[
+			https://escapefromtarkov.fandom.com/wiki/Keys_%26_Intel // Tarkov Wiki
+			https://discordjs.guide/#before-you-begin //Discord.js Documentation
+			https://chat.openai.com //For help with functionality, used as a reference and explanation to discord documentation
+		]
+*/
 
-const client = new Client({
+const fs = require('node:fs'); //File Paths
+const path = require('node:path'); //File Paths
+const { Client, Collection, Events, GatewayIntentBits, InteractionType } = require('discord.js') //Creating discord api variables
+require('dotenv/config') //Gets keys from .env file
+
+const client = new Client({ //Calling Discord Api Functions
     intents: [
-        GatewayIntentBits.Guilds, //Allows Bot to receive messages
-        GatewayIntentBits.GuildMessages, //Allows Bot to receive messages
-        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.Guilds, 
+        GatewayIntentBits.GuildMessages, 
+        GatewayIntentBits.MessageContent
     ]
 })
 
 
-
-client.commands = new Collection();
+/* Following code and loop searches through directories to find matching .js files for importing slash commands */
+client.commands = new Collection(); 
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
 
@@ -34,8 +43,6 @@ for (const folder of commandFolders) {
 }
 
 
-
-
 // When the client is ready, run this code (only once)
 // We use 'c' for the event parameter to keep it separate from the already defined 'client'
 client.once(Events.ClientReady, c => {
@@ -46,7 +53,7 @@ client.on(Events.InteractionCreate, interaction => {    //Create listener
 	console.log(interaction);
 });
 
-
+/* Create asynchronous event */
 client.on(Events.InteractionCreate, async interaction => {
 
 	const command = interaction.client.commands.get(interaction.commandName);
@@ -55,7 +62,8 @@ client.on(Events.InteractionCreate, async interaction => {
 		console.error(`No command matching ${interaction.commandName} was found.`);
 		return;
 	}
-	  
+	/* If slash command is autocomplete, run following conditional */
+	/* As of right now, all our slash commands are autocomplete */  
 	if (interaction.type === InteractionType.ApplicationCommandAutocomplete) {
 		const { commands } = client;
 		const { commandName } = interaction;
@@ -68,7 +76,7 @@ client.on(Events.InteractionCreate, async interaction => {
 		console.error(err);
 		}
 	}
-	  
+	/* If not Slash Command */  
 	try {
 	await command.execute(interaction);
 	} catch (error) {
@@ -81,4 +89,4 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
-client.login(process.env.TOKEN)  //Token for auth
+client.login(process.env.TOKEN)  //Token for authentication

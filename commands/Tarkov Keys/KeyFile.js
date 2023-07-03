@@ -1,20 +1,22 @@
 const { SlashCommandBuilder } = require('discord.js'); //class to allow for / commands
-const { EmbedBuilder  } = require('discord.js');
+const { EmbedBuilder  } = require('discord.js'); //Discord api to allow for embedded messages
 
 module.exports = {
     data: new SlashCommandBuilder() //provide command defintion shown above for registering to Discord
-        .setName('key')
-        .setDescription('List of keys and their information')
-        .addStringOption((option) =>
+        .setName('key')  //Name of slash command
+        .setDescription('List of keys and their information') 
+        .addStringOption((option) => //adding a string option to allow for user input, calling it name, setting it to autocomplete and require
         option
             .setName('name')
-            .setDescription('What action should be taken with the users points?')
+            .setDescription('Which key would you like information on?')
             .setAutocomplete(true)
             .setRequired(true),
         ),
-        async autocomplete(interaction, client) {
-            const focusedValue = interaction.options.getFocused().toLowerCase();
-            const choices = [
+
+        /*Auto Complete directly built into the above Slash command */
+        async autocomplete(interaction, client) { 
+            const focusedValue = interaction.options.getFocused().toLowerCase(); //make everything lowercase
+            const choices = [ 
                             /* Factory Keys */
                             "Factory Emergency Exit Key", //also customs key
                             "Pumping Station Back Door Key", 
@@ -51,13 +53,23 @@ module.exports = {
                             "Trailer Park Portable Cabin Key",
                             "Tarcone Director's Office Key"
                             ];
-            const filtered = choices.filter((choice) => 
-                choice.toLowerCase().includes(focusedValue));
-        await interaction.respond(
-            filtered.map((choice) => ({name: choice, value: choice }))
-        );    
-        },
 
+            let filtered = choices;
+                if (focusedValue !== "") {
+                    filtered = choices.filter((choice) =>           /*'choice' represents each choice in chocies array above*/
+                    choice.toLowerCase().includes(focusedValue)     /*matches to focused value (user input) */
+                );
+            }
+                        
+            const response = filtered.slice(0, 25).map((choice) => ({      /* Slice first 25 options of the array to show, even if there are more */
+                    name: choice,
+                    value: choice,
+            }));
+                        
+            await interaction.respond(response.length ? response : "No results found."); /* Check if response array has any elements, if not return "No Results found." */
+            },    
+        
+        /*Execute function gets the user input and matches it to a case to return embedded message */
         async execute (interaction, client) {
             const string = interaction.options.getString('name');
             switch(string) {
@@ -1009,7 +1021,7 @@ module.exports = {
                 case "Dorm Room 218 Key":
                     const Cus_3D218 = new EmbedBuilder()   
                     .setColor("#e72929")
-                    .setTitle("Dorm Room 214 Key")
+                    .setTitle("Dorm Room 218 Key")
                     .setURL("https://escapefromtarkov.fandom.com/wiki/Dorm_room_218_key")
                     .setThumbnail('attachment://Cus_3D218.png')
                     .setDescription("A key to the three-story dorm with a tag reading '218' on it")
@@ -1566,4 +1578,4 @@ module.exports = {
             }
         },
     
-};
+}; 
