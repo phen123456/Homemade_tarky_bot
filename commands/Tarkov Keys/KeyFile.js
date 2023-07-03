@@ -77,7 +77,7 @@ module.exports = {
                             inline: true
                         },
                         {
-                            name: "Doors Opened",
+                            name: "Lock Location/s",
                             value: "__Factory__: Gate 0 Extraction, Med Tent Gate Extraction, Cellars Extraction, Locked room \n" +
                             "__Customs__: Two doors to the guard building of the crane yard next to the new gas station, Door leading to the ZB-013 Extraction in the basement of Stronghold \n" +
                             "__Interchange__: The doors of the fuel tanker trucks \n" +
@@ -140,7 +140,7 @@ module.exports = {
                             inline: true
                         },
                         {
-                            name: "Doors Opened",
+                            name: "Lock Location/s",
                             value: "Pumping Station in Factory",
                             inline: false
                         },
@@ -187,7 +187,7 @@ module.exports = {
                             inline: true
                         },
                         {
-                            name: "Doors Opened",
+                            name: "Lock Location/s",
                             value: "Pumping Station in Factory",
                             inline: false
                         },
@@ -220,62 +220,46 @@ module.exports = {
 		            await interaction.reply({ embeds: [Fac_PSFD_Embed], files: ['././Images/Factory/Fac_PSFD.png'] });
                     break;
 /*------------- Custom Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-                case "key name":
-                    const keyEmbed = new EmbedBuilder()   
-                    .setColor("#")
-                    .setTitle("")
-                    .setURL("")
-                    .setThumbnail('attachment://.png')
-                    .setDescription("")
+                case "Gas Station Office Key":
+                    const Cus_GasOffice = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Gas Station Office Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Gas_station_office_key")
+                    .setThumbnail('attachment://Cus_GasOffice.png')
+                    .setDescription("The Customs new gas station manager's office key")
                     .addFields (
                         {
                             name: "Map/s",
-                            value: "",
+                            value: "Customs",
                             inline: true
                         },
                         {
-                            name: "Doors Opened",
-                            value: "",
+                            name: "Lock Location/s",
+                            value: "Last room on right in the hallway inside the New Gas Station",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x Safe, 1x pistol spawn on desk, gas station storage room key spawn under table, loose loot (money, ammo)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽4,885",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "B",
                             inline: true
                         },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: ",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "" + 
-                            "",
-                            inline: false
-                        },
                     )
-		            await interaction.reply({ embeds: [keyEmbed], files: ['././Images/map/.png'] });
+		            await interaction.reply({ embeds: [Cus_GasOffice], files: ['././Images/Customs/Cus_GasOffice.png'] });
                     break;	
             }
         },
