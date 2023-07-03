@@ -113,7 +113,7 @@ module.exports = {
                         },
                         {
                             name: "Barter",
-                            value: "__Jaeger LL2__: 1 Factory Emergency Exit Key(used) + 4 Iskra Ration Packs + 1 MRE Ration Pack",
+                            value: "1 Factory Emergency Exit Key(used) + 4 Iskra Ration Packs + 1 MRE Ration Pack - Jaeger LL2",
                             inline: false
                         },
                         {
@@ -1152,6 +1152,416 @@ module.exports = {
                         },
                     )
 		            await interaction.reply({ embeds: [Cus_3D303], files: ['././Images/Customs/Cus_3D303.png'] });
+                    break;
+
+                case "Dorm Room 306 Key":
+                    const Cus_3D306 = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Dorm Room 306 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Dorm_room_306_key")
+                    .setThumbnail('attachment://Cus_3D306.png')
+                    .setDescription("A key to the three-story dorm with a tag reading '306' on it")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "From the main staircase, it is the first door on the right at the top",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (money)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽3,848",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_3D306], files: ['././Images/Customs/Cus_3D306.png'] });
+                    break;
+                
+                case "Dorm Room 308 Key":
+                    const Cus_3D308 = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Dorm Room 308 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Dorm_room_308_key")
+                    .setThumbnail('attachment://Cus_3D308.png')
+                    .setDescription("A key to the three-story dorm with a tag reading '308' on it")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Down the main hallway, one room after the open kitchen area on the left hand side",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (money)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽2,205",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_3D308], files: ['././Images/Customs/Cus_3D308.png'] });
+                    break;
+
+                case "Dorm Room 315 Key":
+                    const Cus_3D315 = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Dorm Room 315 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Dorm_room_315_key")
+                    .setThumbnail('attachment://Cus_3D315.png')
+                    .setDescription("A key to the three-story dorm with a tag reading '315' on it")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Down the main hallway on the right side one room before the hallway leading to the roof area",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (money)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽1,591",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_3D315], files: ['././Images/Customs/Cus_3D315.png'] });
+                    break;
+                
+                case "Dorm Room 314 Marked Key":
+                    const Cus_3D314M = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Dorm Room 314 Marked Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Dorm_room_314_marked_key")
+                    .setThumbnail('attachment://Cus_3D314M.png')
+                    .setDescription("A dormitory room 314 key with strange symbols scratched onto it where the room label would normally be. The key has completely rusted through, making it very fragile")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "At the very end of the main hallway on the right side",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot(valuables, weapons, containers)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'The Cult - Part 2'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽945,000",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "S",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "Potential spawn in Reshala's pockets",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "1x RB-VO marked key, 1x RB-PKPM marked key, 1x RB-BK marked key - Jaeger LL3",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_3D314M], files: ['././Images/Customs/Cus_3D314M.png'] });
+                    break;
+
+                case "Machinery Key":
+                    const Cus_Machine = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Machinery Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Machinery_key")
+                    .setThumbnail('attachment://Cus_Machine.png')
+                    .setDescription("A key to special machinery such as tank trucks, tractors, road-building machinery, etc.")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Driver-side door of the fuel tank truck at the construction area",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Bronze pocket watch for 'Checking'",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Checking'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽1,268",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "Inside the yellow yacket in Room 205 of the three-story dorm. Guaranteed spawn every raid",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_Machine], files: ['././Images/Customs/Cus_Machine.png'] });
+                    break;
+
+                case "Portable Bunkhouse Key":
+                    const Cus_PB = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Portable Bunkhouse Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Portable_bunkhouse_key")
+                    .setThumbnail('attachment://Cus_PB.png')
+                    .setDescription("A key to one of the portable cabins located in the Trailer Park area")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Second story portable cabin between bus depot and the construction area",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x weapon box (5x2), Secure folder for 'Bad Rep Evidence'",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Bad Rep Evidence'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽2,114",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "D",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "Low chance to spawn under a jacket in the locked room next to the office on Factory",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_PB], files: ['././Images/Customs/Cus_PB.png'] });
+                    break;
+
+                case "Portable Cabin Key":
+                    const Cus_PC = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Portable Cabin Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Portable_cabin_key")
+                    .setThumbnail('attachment://Cus_PC.png')
+                    .setDescription("A key to one of the portable guard cabins, near the Trailer Park area")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Portable door north of the storage zone, close to the Trailer Park",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "3x Jackets, Loose loot",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽3,591",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_PC], files: ['././Images/Customs/Cus_PC.png'] });
+                    break;
+
+                case "Trailer Park Portable Cabin Key":
+                    const Cus_TPPC = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Trailer Park Portable Cabin Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Trailer_park_portable_cabin_key")
+                    .setThumbnail('attachment://Cus_TPPC.png')
+                    .setDescription("A key to one of the portable cabins, probably the one that is used by the guards at the Trailer Park")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Mobile trailer at the entrance to the parking lot near Small Blue",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "N/A",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Golden Swag'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽4,162",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_TPPC], files: ['././Images/Customs/Cus_TPPC.png'] });
+                    break;
+
+                case "Tarcone Director's Office Key":
+                    const Cus_TDO = new EmbedBuilder()   
+                    .setColor("#e72929")
+                    .setTitle("Tarcone Director's Office Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Tarcone_Director%27s_office_key")
+                    .setThumbnail('attachment://Cus_TDO.png')
+                    .setDescription("Key to the Customs office building inside Big Red")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Customs",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Top of the metal staircase in the Big Red warehouse",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x Sport bag, 3x PC, 1x Safe, 1x Jacket, 1x Intelligence Folder spawn, Loose loot",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Delivery from the Past' \n" +
+                            "'Farming - Part 3'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽13,297",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "A",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "N/A",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "2x Can of Ice Green Tea, 4x Army Crackers, 2x Can of squash spread - Therapist LL1 \n" +
+                            "4x Golden neck chain - Therapist LL2",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Cus_TDO], files: ['././Images/Customs/Cus_TDO.png'] });
                     break;
             }
         },
