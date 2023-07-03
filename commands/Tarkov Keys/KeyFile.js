@@ -86,7 +86,7 @@ module.exports = {
                         },
                         {
                             name: "Potential Loot",
-                            value: "__Factory Locked Room__: 1x Jacket, One weapon spawn, Loose loot, Portable bunkhouse key spawn loaction \n" +
+                            value: "__Factory Locked Room__: 1x Jacket, One weapon spawn, Loose loot, Portable bunkhouse key spawn location \n" +
                             "__Customs Guard Building__: 1x filing cabinet, 1x wooden crate (5x2), Loose loot, TerraGroup Labs arsenal storage room key spawn (On shelf under the telephone)",
                             inline: false
                         },
@@ -220,6 +220,63 @@ module.exports = {
 		            await interaction.reply({ embeds: [Fac_PSFD_Embed], files: ['././Images/Factory/Fac_PSFD.png'] });
                     break;
 /*------------- Custom Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+                case "key name":
+                    const keyEmbed = new EmbedBuilder()   
+                    .setColor("#")
+                    .setTitle("")
+                    .setURL("")
+                    .setThumbnail('attachment://.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Doors Opened",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: ",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "" + 
+                            "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [keyEmbed], files: ['././Images/map/.png'] });
+                    break;	
             }
         },
     
