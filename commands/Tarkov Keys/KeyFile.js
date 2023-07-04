@@ -51,7 +51,31 @@ module.exports = {
                             "Portable Bunkhouse Key",
                             "Portable Cabin Key",
                             "Trailer Park Portable Cabin Key",
-                            "Tarcone Director's Office Key"
+                            "Tarcone Director's Office Key",
+
+                            /*Woods Keys*/
+                            "Yotota Car Key",
+                            "ZB-014 Key",
+                            "Shturman's Stash Key",
+
+                            /*Shoreline Key*/
+                            "Cottage Back Door Key",
+                            "Cottage Safe Key",
+                            "SMW Car Key",
+                            "HEP Station Storage Room Key",
+                            "Health Resort Management Warehouse Safe Key",
+                            "Health Resort Management Office Safe Key",
+                            "Health Resort West Wing Office Room 104 Key",
+                            "Health Resort West Wing Office Room 112 Key",
+                            "Health Resort West Wing Room 203 Key",
+                            "Health Resort West Wing Room 205 Key",
+                            "Health Resort West Wing Room 216 Key",
+                            "Health Resort West Wing Room 218 Key",
+                            "Health Resort West Wing Room 219 Key",
+                            "Health Resort West Wing Room 220 Key",
+                            "Health Resort West Wing Room 221 Key",
+                            "Health Resort West Wing Room 222 Key",
+                            "Health Resort West Wing Room 301 Key",
                             ];
 
             let filtered = choices;
@@ -1574,6 +1598,337 @@ module.exports = {
                         },
                     )
 		            await interaction.reply({ embeds: [Cus_TDO], files: ['././Images/Customs/Cus_TDO.png'] });
+                    break;
+
+/*------------- Woods Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+                case "Yotota Car Key":
+                    const Wds_YC = new EmbedBuilder()   
+                    .setColor("#61aa41")
+                    .setTitle("Yotota Car Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Yotota_car_key")
+                    .setThumbnail('attachment://Wds_YC.png')
+                    .setDescription("A Yotota car key with locking buttons")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Woods",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "The pickup truck parked in the lumber yard next to the three cabins",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot(misc.)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽758",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Wds_YC], files: ['././Images/Woods/Wds_YC.png'] });
+                    break;
+                
+                case "ZB-014 Key":
+                    const Wds_ZB = new EmbedBuilder()   
+                    .setColor("#61aa41")
+                    .setTitle("ZB-014 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/ZB-014_key")
+                    .setThumbnail('attachment://Wds_ZB.png')
+                    .setDescription("The key with an incomprehensible engraving")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Woods",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Inside a bunker on the west side of the map near Outskirts",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x weapon box (5x5), 5.45x39 60-round magazine spawn (near the barrels), Loose loot on shelf",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "1 needs to be turned in to Therapist for the task 'Trust Regain'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽9,219",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "N/A",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "N/A",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "Opens the occasional 'ZB-014' extraction. You can tell if it is active by the green smoke at the rocks or light above the door inside the locked room",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Wds_ZB], files: ['././Images/Woods/Wds_ZB.png'] });
+                    break;
+                
+                case "Shturman's Stash Key":
+                    const Wds_SSK = new EmbedBuilder()   
+                    .setColor("#61aa41")
+                    .setTitle("Shturman's Stash Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key")
+                    .setThumbnail('attachment://Wds_SSK.png')
+                    .setDescription("The Svetloozersk gang's common fund stash key, usually kept by Shturman. The key looks very flimsy, it could break from even a single use")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Woods",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "In the sawmill area, on top of a tire next to a wood log pile",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Various high-tier items (ammo, weapon mods, valuables)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "1 needs to be found in raid for the quest 'The Huntsman Path - Woods Keeper'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽95,402",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "A",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "On Shturman",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Wds_SSK], files: ['././Images/Woods/Wds_SSK.png'] });
+                    break;
+
+/*------------- Shoreline Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+                case "Cottage Back Door Key":
+                    const Shr_CBD = new EmbedBuilder()   
+                    .setColor("#2978bf")
+                    .setTitle("Cottage Back Door Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Cottage_back_door_key")
+                    .setThumbnail('attachment://Shr_CBD.png')
+                    .setDescription("Key to the cottage back entrance")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Shoreline",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Eastern cottage, in the backyard",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x PC, 1x gun cabinet, 2x Safe (1 locked), 1x Jacket, Loose loot (money)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽33,465",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "Potential spawn on top of the bundle of water barrels in the backyard of the cottage",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Shr_CBD], files: ['././Images/Shoreline/Shr_CBD.png'] });
+                    break;
+
+                case "Cottage Safe Key":
+                    const Shr_CS = new EmbedBuilder()   
+                    .setColor("#2978bf")
+                    .setTitle("Cottage Safe Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Cottage_safe_key")
+                    .setThumbnail('attachment://Shr_CS.png')
+                    .setDescription("A key to the safe inside one of the cottages")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Shoreline",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Unlocks the safe on the second floor in the locked Villa",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x Safe",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽13,954",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "Chance to spawn in the white bus near tank in the western village. It can spawn on a seat in the back right",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Shr_CS], files: ['././Images/Shoreline/Shr_CS.png'] });
+                    break;
+
+                case "SMW Car Key":
+                    const Shr_SMWC = new EmbedBuilder()   
+                    .setColor("#2978bf")
+                    .setTitle("SMW Car Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/SMW_car_key")
+                    .setThumbnail('attachment://Shr_SMWC.png')
+                    .setDescription("SMW car folding key")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Shoreline",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Trunk of the blue car near the unlocked villa",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (money, provisions)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽5,315",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "Chance to spawn on a box at the construction site near the locked Villa",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Shr_SMWC], files: ['././Images/Shoreline/Shr_SMWC.png'] });
+                    break;
+
+                case "HEP Station Storage Room Key":
+                    const Shr_HEPS = new EmbedBuilder()   
+                    .setColor("#2978bf")
+                    .setTitle("HEP Station Storage Room Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/HEP_station_storage_room_key")
+                    .setThumbnail('attachment://Shr_HEPS.png')
+                    .setDescription("A key to the USEC stash inside the hydroelectric power station")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Shoreline",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "On the second floor of the power station",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x weapon box (5x5), 1x weapon box (4x4), 1x weapon box (6x3), 1x Intelligence Folder spawn, Loose loot (weapon mods)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽25,200",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Shr_HEPS], files: ['././Images/Shoreline/Shr_HEPS.png'] });
                     break;
             }
         },
