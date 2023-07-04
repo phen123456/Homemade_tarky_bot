@@ -59,6 +59,8 @@ module.exports = {
                             "Shturman's Stash Key",
 
                             /*Shoreline Key*/
+                            "Weather Station Safe Key", //needs embed
+                            "Gas Station Safe Key", //needs embed
                             "Cottage Back Door Key",
                             "Cottage Safe Key",
                             "SMW Car Key",
@@ -69,6 +71,7 @@ module.exports = {
                             "Health Resort West Wing Office Room 112 Key",
                             "Health Resort West Wing Room 203 Key",
                             "Health Resort West Wing Room 205 Key",
+                            "Health Resort West Wing Room 207 Key", //needs embed
                             "Health Resort West Wing Room 216 Key",
                             "Health Resort West Wing Room 218 Key",
                             "Health Resort West Wing Room 219 Key",
@@ -76,6 +79,33 @@ module.exports = {
                             "Health Resort West Wing Room 221 Key",
                             "Health Resort West Wing Room 222 Key",
                             "Health Resort West Wing Room 301 Key",
+                            "Health Resort West Wing Room 303 Key", //needs embed from here on
+                            "Health Resort West Wing Room 306 Key",
+                            "Health Resort West Wing Room 309 Key",
+                            "Health Resort West Wing Room 323 Key",
+                            "Health Resort West Wing Room 325 Key",
+                            "Health Resort West Wing Room 321 Safe Key",
+                            "Health Resort Universal Utility Room Key",
+                            "Health Resort East Wing Office Room 107 Key",
+                            "Health Resort East Wing Office Room 108 Key",
+                            "Health Resort Office Key With A Blue Tape",
+                            "Health Resort East Wing Room 205 Key",
+                            "Health Resort East Wing Room 206 Key",
+                            "Health Resort East Wing Room 209 Key",
+                            "Health Resort East Wing Room 213 Key",
+                            "Health Resort East Wing Room 216 Key",
+                            "Health Resort East Wing Room 222 Key",
+                            "Health Resort East Wing Room 226 Key",
+                            "Health Resort East Wing Room 306 Key",
+                            "Health Resort East Wing Room 308 Key",
+                            "Health Resort East Wing Room 310 Key",
+                            "Health Resort East Wing Room 313 Key",
+                            "Health Resort East Wing Room 314 Key",
+                            "Health Resort East Wing Room 316 Key",
+                            "Health Resort East Wing Room 322 Key",
+                            "Health Resort East Wing Room 328 Key",
+
+                            
                             ];
 
             let filtered = choices;
