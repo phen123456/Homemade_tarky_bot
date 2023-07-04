@@ -65,13 +65,13 @@ module.exports = {
                             "Cottage Safe Key",
                             "SMW Car Key",
                             "HEP Station Storage Room Key",
-                            "Health Resort Management Warehouse Safe Key",
+                            "Health Resort Management Warehouse Safe Key", //are here
                             "Health Resort Management Office Safe Key",
                             "Health Resort West Wing Office Room 104 Key",
                             "Health Resort West Wing Office Room 112 Key",
                             "Health Resort West Wing Room 203 Key",
                             "Health Resort West Wing Room 205 Key",
-                            "Health Resort West Wing Room 207 Key", //needs embed
+                            "Health Resort West Wing Room 207 Key", 
                             "Health Resort West Wing Room 216 Key",
                             "Health Resort West Wing Room 218 Key",
                             "Health Resort West Wing Room 219 Key",
@@ -79,7 +79,7 @@ module.exports = {
                             "Health Resort West Wing Room 221 Key",
                             "Health Resort West Wing Room 222 Key",
                             "Health Resort West Wing Room 301 Key",
-                            "Health Resort West Wing Room 303 Key", //needs embed from here on
+                            "Health Resort West Wing Room 303 Key", 
                             "Health Resort West Wing Room 306 Key",
                             "Health Resort West Wing Room 309 Key",
                             "Health Resort West Wing Room 323 Key",
@@ -1778,6 +1778,90 @@ module.exports = {
                     break;
 
 /*------------- Shoreline Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+                case "Weather Station Safe Key":
+                    const Shr_WSSafe = new EmbedBuilder()   
+                    .setColor("#2978bf")
+                    .setTitle("Weather Station Safe Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Weather_station_safe_key")
+                    .setThumbnail('attachment://Shr_WSSafe.png')
+                    .setDescription("Key to the safe of the Shoreline weather station")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Shoreline",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "None, safe is always unlocked",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "N/A",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽12,034",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+                    await interaction.reply({ embeds: [Shr_WSSafe], files: ['././Images/Shoreline/Shr_WSSafe.png'] });
+                    break;
+
+                case "Gas Station Safe Key":
+                    const Shr_GSSafe = new EmbedBuilder()   
+                    .setColor("#2978bf")
+                    .setTitle("Gas Station Safe Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Gas_station_safe_key")
+                    .setThumbnail('attachment://Shr_GSSafe.png')
+                    .setDescription("A key to the safe inside the gas station, located somewhere near the Azure Coast sanatorium")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Shoreline",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "None, safe is always unlocked",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "N/A",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽3,276",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "F",
+                            inline: true
+                        },
+                    )
+                    await interaction.reply({ embeds: [Shr_GSSafe], files: ['././Images/Shoreline/Shr_GSSafe.png'] });
+                    break;
+
                 case "Cottage Back Door Key":
                     const Shr_CBD = new EmbedBuilder()   
                     .setColor("#2978bf")
