@@ -2004,7 +2004,7 @@ module.exports = {
                         },
                         {
                             name: "Potential Loot",
-                            value: "1x Safe",
+                            value: "Valuables, money etc.",
                             inline: false
                         },
                         {
@@ -2177,7 +2177,7 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "In one of the office in the Admin Building",
+                            value: "In one of the offices in the Admin Building",
                             inline: false
                         },
                         {
@@ -3950,7 +3950,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Factory: Inside a blue locker at the forklift area",
+                            value: "__Factory__: Inside a blue locker at the forklift area",
                             inline: false
                         },
                     )
@@ -3997,7 +3997,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Shoreline: In west wing room 101 on the desk",
+                            value: "__Shoreline__: In west wing room 101 on the desk",
                             inline: false
                         },
                     )
@@ -4091,7 +4091,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Interchange: Inside the power station admin room, located on top of a box on a shelf\n" +
+                            value: "__Interchange__: Inside the power station admin room, located on top of a box on a shelf\n" +
                             "At the campsite in Goshan, behind a tent on a book",
                             inline: false
                         },
@@ -4198,7 +4198,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Customs: Inside the crashed ambulance outside the front area of the new gas station. You have to jump inside to grab the key off the seat",
+                            value: "__Customs__: Inside the crashed ambulance outside the front area of the new gas station. You have to jump inside to grab the key off the seat",
                             inline: false
                         },
                     )
@@ -4245,7 +4245,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Customs: On the seat of a white bus that is part of the roadblock next to the new gas station",
+                            value: "__Customs__: On the seat of a white bus that is part of the roadblock next to the new gas station",
                             inline: false
                         },
                         {
@@ -4344,7 +4344,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Shoreline: On a table in the Health Resort east wing room 322",
+                            value: "__Shoreline__: On a table in the Health Resort east wing room 322",
                             inline: false
                         },
                     )
@@ -4391,12 +4391,12 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Customs: Inside the trunk of the blue car, right beside the shortcut between the factory area and the new gas station",
+                            value: "__Customs__: Inside the trunk of the blue car, right beside the shortcut between the factory area and the new gas station",
                             inline: false
                         },
                         {
                             name: "Barter",
-                            value: "4x hunting matches, 2x survival lighter, 1x dry fuel",
+                            value: "4x hunting matches, 2x survival lighter, 1x dry fuel - Jaeger LL3",
                             inline: false
                         },
                     )
@@ -4792,7 +4792,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Shoreline: On the step of the passenger side of the ambulance that is parked in front of the resort\n" +
+                            value: "__Shoreline__: On the step of the passenger side of the ambulance that is parked in front of the resort\n" +
                             "West Wing Office 104 - On a desk between the lamp and files\n" +
                             "West Wing Office 112 - On a lowboard bottom left of the TV",
                             inline: false
@@ -4895,7 +4895,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Shoreline: East Wing Room 221 - On the table with the laptop\n" +
+                            value: "__Shoreline__: East Wing Room 221 - On the table with the laptop\n" +
                             "West Wing: In the basement gym in a locker\n" +
                             "Room 218 - On top of a water barrel\n" +
                             "Room 203 - On the floor in front of the nightstand beside the bed, closest to the balcony\n" +
@@ -4951,7 +4951,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Woods: In trunk of the black SUV parked in front of the blue warehouse in the lumber camp\n" +
+                            value: "__Woods__: In trunk of the black SUV parked in front of the blue warehouse in the lumber camp\n" +
                             "In a brick house north of the lumber camp on the edge of the desk right to the entrance\n" +
                             "Inside the driver side door of the SUV at the checkpoint eastern of the lumber camp",
                             inline: false
@@ -5054,7 +5054,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Customs: Sitting on a chair within a shack on top of the hill with the transmission tower\n" +
+                            value: "__Customs__: Sitting on a chair within a shack on top of the hill with the transmission tower\n" +
                             "Room 215 of the three-story dorm: Inside a night stand\n" +
                             "On the counter behind the cash registers in the new gas station\n" +
                             "Inside the factory shortcut in the room with the filing cabinets, on the shelf right beneath the telephone",
@@ -5183,7 +5183,6 @@ module.exports = {
                     break;
 
 /*------------- Reserve Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
                 case "RB-AK Key":
                     const Res_AK = new EmbedBuilder()   
                     .setColor("#d19e6e")
@@ -5328,7 +5327,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Shoreline: In the bunker to the north of the health resort, on a bed",
+                            value: "__Shoreline__: In the bunker to the north of the health resort, on a bed",
                             inline: false
                         },
                     )
@@ -5590,7 +5589,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Customs: Shipping yard container building, on desk with papers",
+                            value: "__Customs__: Shipping yard container building, on desk with papers",
                             inline: false
                         },
                     )
@@ -5637,7 +5636,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Woods: In the large warehouse with the weapon boxes in the Sawmill. The key can be found next to the boxes in the blue locker",
+                            value: "__Woods__: In the large warehouse with the weapon boxes in the Sawmill. The key can be found next to the boxes in the blue locker",
                             inline: false
                         },
                     )
@@ -5726,7 +5725,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Interchange: On the wooden drawer inside the bathroom in the power station",
+                            value: "__Interchange__: On the wooden drawer inside the bathroom in the power station",
                             inline: false
                         },
                     )
@@ -5857,7 +5856,7 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Interchange: On a shelf of a cabinet in the 'Generic' outlet",
+                            value: "__Interchange__: On a shelf of a cabinet in the 'Generic' outlet",
                             inline: false
                         },
                     )
@@ -5870,7 +5869,7 @@ module.exports = {
                     .setTitle("RB-ORB1 Key")
                     .setURL("https://escapefromtarkov.fandom.com/wiki/RB-ORB1_key")
                     .setThumbnail('attachment://Res_ORB1.png')
-                    .setDescription("A key to one of the Federal State Reserve Agency base second barracks armories")
+                    .setDescription("A key to one of the Federal State Reserve Agency base second barracks' armories")
                     .addFields (
                         {
                             name: "Map/s",
@@ -5951,8 +5950,8 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Inside a locker located in a dressing room inside the conection tunnel from the radar station to White Pawn\n" +
-                            "Woods: Near the tank at the 'RUAF Gate' extraction on a concrete wall piece that a 'HELP' inscription",
+                            value: "__Reserve__: Inside a locker located in a dressing room inside the connection tunnel from the radar station to White Pawn\n" +
+                            "__Woods__: Near the tank at the 'RUAF Gate' extraction on a concrete wall piece that has a 'HELP' inscription",
                             inline: false
                         },
                     )
@@ -5999,11 +5998,539 @@ module.exports = {
                         },
                         {
                             name: "World Spawns",
-                            value: "Customs: Front passenger sear of the Tigr vehicle closest to the bridge",
+                            value: "__Customs__: Front passenger sear of the Tigr vehicle closest to the bridge",
                             inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Res_ORB3], files: ['././Images/Reserve/Res_ORB3.png'] });
+                    break;
+
+                case "RB-PKPM Marked Key":
+                    const Res_PKPM = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-PKPM Marked Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-PKPM_marked_key")
+                    .setThumbnail('attachment://Res_PKPM.png')
+                    .setDescription("Military base bunker command office room key with multiple strange symbols scratched on to it where the room label would usually be. The key is stained by blood and appears to have been misused a lot, making it fragile")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "In the underground bunker system, next to the office that is connected to the D-2 extraction switch",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (multiple very rare items, weapons, containers)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽157,500",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "S",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_PKPM], files: ['././Images/Reserve/Res_PKPM.png'] });
+                    break;
+
+                case "RB-PSV1 Key":
+                    const Res_PSV1 = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-PSV1 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-PSV1_key")
+                    .setThumbnail('attachment://Res_PSV1.png')
+                    .setDescription("A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "The south-east caged off storage area in the underground storage bunkers",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "2x medical supply crates, 1x ration supply crate, 1x technical supply crate",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽18,408",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "White Bishop, basement floor on a chair",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_PSV1], files: ['././Images/Reserve/Res_PSV1.png'] });
+                    break;
+
+                case "RB-PSV2 Key":
+                    const Res_PSV2 = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-PSV2 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-PSV2_key")
+                    .setThumbnail('attachment://Res_PSV2.png')
+                    .setDescription("A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "North-east caged off storage area in the underground storage bunkers",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "3x medical supply crates, 1x technical supply crate",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽18,266",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_PSV2], files: ['././Images/Reserve/Res_PSV2.png'] });
+                    break;
+
+                case "RB-PSP1 Key":
+                    const Res_PSP1 = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-PSP1 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-PSP1_key")
+                    .setThumbnail('attachment://Res_PSP1.png')
+                    .setDescription("A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "North-west caged off storage area in the underground storage bunkers",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "4x ration supply crate, 1x medical supply crate, 1x technical supply crate, 1x toolbox, loose loot (provisions)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽15,818",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_PSP1], files: ['././Images/Reserve/Res_PSP1.png'] });
+                    break;
+
+                case "RB-PSP2 Key":
+                    const Res_PSP2 = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-PSP2 Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-PSP2_key")
+                    .setThumbnail('attachment://Res_PSP2.png')
+                    .setDescription("A key to one of the iron mesh doors in the Federal State Reserve Agency base underground supply warehouse")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "South-west caged off storage area in the underground storage bunkers",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "2x technical supply crate, 2x ration supply crate, 1x medical supply crate",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽18,339",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "N/A",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "10x green battery, 7x cyclon battery, 5x flat screwdriver (long) - Jaeger LL4",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_PSP2], files: ['././Images/Reserve/Res_PSP2.png'] });
+                    break;
+                    
+                case "RB-RH Key":
+                    const Res_RH = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-RH Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-RH_key")
+                    .setThumbnail('attachment://Res_RH.png')
+                    .setDescription("A key to the Federal State Reserve Agency base Airspace Control Center security room")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "White King, third floor",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x weapon rack (AK variants), weapon spawn on table, 2x drawers",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽5,702",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_RH], files: ['././Images/Reserve/Res_RH.png'] });
+                    break;
+
+                case "RB-RLSA Key":
+                    const Res_RLSA = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-RLSA Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-RLSA_key")
+                    .setThumbnail('attachment://Res_RLSA.png')
+                    .setDescription("A key to the Federal State Reserve Agency base Radar Station document archives")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "White Queen (Dome), 2nd floor",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x intelligence folder, 3x drawers, loose loot (mods, ammo, military tech items)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽48,510",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_RLSA], files: ['././Images/Reserve/Res_RLSA.png'] });
+                    break;
+
+                case "RB-RS Key":
+                    const Res_RS = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-RS Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-RS_key")
+                    .setThumbnail('attachment://Res_RS.png')
+                    .setDescription("A key to the Federal State Reserve Agency base Radar Station server room")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "White Queen (Dome), middle floor",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "2x toolboxes, loose loot (tech, electronics)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽7,591",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_RS], files: ['././Images/Reserve/Res_RS.png'] });
+                    break;
+
+                case "RB-SMP Key":
+                    const Res_SMP = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-SMP Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-SMP_key")
+                    .setThumbnail('attachment://Res_SMP.png')
+                    .setDescription("A key to the Federal State Reserve Agency base Military unit Headquarters' medical storage room")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "White Bishop, 2nd floor",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (medical supplies, medical items, stimulants)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Disease History'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽45,492",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_SMP], files: ['././Images/Reserve/Res_SMP.png'] });
+                    break;
+
+                case "RB-ST Key":
+                    const Res_ST = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-ST Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-ST_key")
+                    .setThumbnail('attachment://Res_ST.png')
+                    .setDescription("A key to the Federal State Reserve Agency base miilitary equipment care and attention service repair center")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "In the southern-most repair warehouse, close to White Knight",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x weapon box (5x5), 1x weapon box (6x3), 1x weapon box (5x2)\n" +
+                            "2x grenade boxes, 2x military battery spawn, 3x OFZ shell spawn \n" +
+                            "2x AESA spawn, loose loot (ammo, weapon mods, electronics)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Surplus Goods'\n" +
+                            "'Revision - Reserve'\n" +
+                            "'Snatch'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽59,863",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "A",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_ST], files: ['././Images/Reserve/Res_ST.png'] });
+                    break;
+
+                case "RB-TB Key":
+                    const Res_TB = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-TB Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-TB_key")
+                    .setThumbnail('attachment://Res_TB.png')
+                    .setDescription("A key to the Federal State Reserve Agency base first barracks' underground storage room")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Black Pawn, basement floor",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "3x weapon rack (AK variants), loose loot (weapon mods, ammo)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽9,462",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "On the train station lower roof, on the left side of the sleeping bag next to the sandbags",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_TB], files: ['././Images/Reserve/Res_TB.png'] });
+                    break;
+                
+                case "RB-VO Marked Key":
+                    const Res_VO = new EmbedBuilder()   
+                    .setColor("#d19e6e")
+                    .setTitle("RB-VO Marked Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-VO_marked_key")
+                    .setThumbnail('attachment://Res_VO.png')
+                    .setDescription("A Federal State Reserve Agency base guard barracks key with multiple strange symbols scratched onto it where the room label would usually be. The key is stained by blood and appears to have been misused a lot, making it fragile")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Reserve",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Back end of the barrack to the Northwest, close to the train station",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Loose loot (multiple very rate loot items, weapons, containers)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽157,500",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "S",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Res_VO], files: ['././Images/Reserve/Res_VO.png'] });
                     break;
                     
 /*------------- Lighthouse Keys --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -6146,7 +6673,7 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "Located on the road West of Rogue Camp, South of building 3",
+                            value: "Located on the road West of Rogue Camp, South of building #1",
                             inline: false
                         },
                         {
@@ -6171,7 +6698,417 @@ module.exports = {
                         },
                     )
                     await interaction.reply({ embeds: [Lgh_Police], files: ['././Images/Lighthouse/Lgh_Police.png'] });
-                    break;                  
+                    break;
+        		case "Rogue USEC Stash Key":
+                    const Lgh_UStash = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Rogue USEC Stash Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Rogue_USEC_stash_key")
+                    .setThumbnail('attachment://Lgh_UStash.png')
+                    .setDescription("A key to the stash, located somewhere at the Rogue USEC base")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Opens a portable cabin out front of building #1 when entering the Rogue camp from the main bridge",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x weapon box (5x2), 1x weapon box (4x4), 1x weapon box (5x5), loose loot (weapon mods, other)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽21,672",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_UStash], files: ['././Images/Lighthouse/Lgh_UStash.png'] });
+                    break;
+        		case "Rogue USEC Workshop Key":
+                    const Lgh_UWrksh = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Rogue USEC Workshop Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Rogue_USEC_workshop_key")
+                    .setThumbnail('attachment://Lgh_UWrksh.png')
+                    .setDescription("A key to the workshop bunkhouse, located somewhere at the Rogue USEC base")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Opens a portable cabin on the east side of Rogue camp",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "2x toolbox, 1x jacket, military battery spawn, loose loot (weapons mods, other)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽17,325",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_UWrksh], files: ['././Images/Lighthouse/Lgh_UWrksh.png'] });
+                    break;
+        		case "USEC First Safe Key":
+                    const Lgh_UFSafe = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("USEC First Safe Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/USEC_first_safe_key")
+                    .setThumbnail('attachment://Lgh_UFSafe.png')
+                    .setDescription("A key to the safe that belonged to one of the USEC operatives stationed in the roadside cottage area")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Unlocks a safe in the north-western bedroom on 2nd floor of the blue chalet",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Valuables, virtex spawn, vpx spawn, wireless radio spawn, circuits textbook spawn",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽17,328",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_UFSafe], files: ['././Images/Lighthouse/Lgh_UFSafe.png'] });
+                    break;	
+            	case "USEC Second Safe Key":
+                    const Lgh_USSafe = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("USEC Second Safe Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/USEC_second_safe_key")
+                    .setThumbnail('attachment://Lgh_USSafe.png')
+                    .setDescription("A key to the safe that belonged to one of the USEC operatives stationed in the roadside cottage area")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Unlocks a safe in the south-western bedroom on 2nd floor of the blue chalet",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Valuables, virtex spawn, vpx spawn, wireless radio spawn, circuits textbook spawn",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽17,391",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_USSafe], files: ['././Images/Lighthouse/Lgh_USSafe.png'] });
+                    break;	
+            	case "Shared Bedroom Marked Key":
+                    const Lgh_BedMrkd = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Shared Bedroom Marked Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Shared_bedroom_marked_key")
+                    .setThumbnail('attachment://Lgh_BedMrkd.png')
+                    .setDescription("A key that opens the shared bedroom, located somewhere on the Lighthouse peninsula territory. It has some strange symbols scratched onto it")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Door is located on the 2nd floor of the northern L-shaped building on the lighthouse peninsula",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Rare loose loot, 1x sports bag, 1x jacket, 1x medcase",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽157,500",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_BedMrkd], files: ['././Images/Lighthouse/Lgh_BedMrkd.png'] });
+                    break;	
+            	case "Water Treatment Plant Storage Room Key":
+                    const Lgh_WTPSto = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Water Treatment Plant Storage Room Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Water_treatment_plant_storage_room_key")
+                    .setThumbnail('attachment://Lgh_WTPSto.png')
+                    .setDescription("A key that opens the storage room, located somewhere at the water treatment plant")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Ground floor of building #2 in the Rogue camp",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x technical supply crate, 1x toolbox, loose military tech, valuables",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Getting Acquainted'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽13,274",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_WTPSto], files: ['././Images/Lighthouse/Lgh_WTPSto.png'] });
+                    break;	
+            	case "Radar Station Commandant Room Key":
+                    const Lgh_RdrSta = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Radar Station Commandant Room Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Radar_station_commandant_room_key")
+                    .setThumbnail('attachment://Lgh_RdrSta.png')
+                    .setDescription("A key that opens the radar station commandant office room, located somewhere on the Lighthouse peninsula territory")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Radar station on the lighthouse peninsula",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x jacket, 1x weapon box (4x4), 1x PC, loose loot (tools, weapon mods, valuables)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽163,800",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_RdrSta], files: ['././Images/Lighthouse/Lgh_RdrSta.png'] });
+                    break;	
+            	case "Conference Room Key":
+                    const Lgh_CnfrRoom = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Conference Room Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Conference_room_key")
+                    .setThumbnail('attachment://Lgh_CnfrRoom.png')
+                    .setDescription("A key that opens the conference room, located somewhere on the Lighthouse peninsula territory")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Door is located on the 2nd floor of the southern L-shaped building on the lighthouse peninsula",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x permanently locked safe, 1x drawer, 1x PC, 1x weapon box (4x4), rare loose loot spawn",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "N/A",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽35,910",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_CnfrRoom], files: ['././Images/Lighthouse/Lgh_CnfrRoom.png'] });
+                    break;	
+            	case "Operating Room Key":
+                    const Lgh_OpRoom = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Operating Room Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Operating_room_key")
+                    .setThumbnail('attachment://Lgh_OpRoom.png')
+                    .setDescription("A key that opens the operating room with broadcasting equipment, located somewhere at the water treatment plant")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Ground floor of building #1 in the Rogue camp",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "Electronics, currency, 1x medbag, 1x dead scav",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Broadcast - Part 1'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽61,110",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "B",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_OpRoom], files: ['././Images/Lighthouse/Lgh_OpRoom.png'] });
+                    break;	
+            	case "Rogue USEC Barrack Key":
+                    const Lgh_UBrrck = new EmbedBuilder()   
+                    .setColor("#fff460")
+                    .setTitle("Rogue USEC Barrack Key")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Rogue_USEC_barrack_key")
+                    .setThumbnail('attachment://Lgh_UBrrck.png')
+                    .setDescription("A key that opens one of the Rogues' makeshift barracks")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Lighthouse",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "Ground floor of building #3 in the Rogue camp",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1x weapon box (5x2), 1x weapon box (4x4), 1x toolbox, 1x ammo box, bitcoin spawn on chair, loose loot (weapon mods)",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "'Getting Acquainted'",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽13,363",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "C",
+                            inline: true
+                        },
+                    )
+		            await interaction.reply({ embeds: [Lgh_UBrrck], files: ['././Images/Lighthouse/Lgh_UBrrck.png'] });
+                    break;	
             }
         },
     
