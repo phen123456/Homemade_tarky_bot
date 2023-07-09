@@ -7162,9 +7162,9 @@ module.exports = {
                     const Sts_FIOff = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Financial Institution Office Key")
-                    .setURL("https://espn.com")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Financial_institution_office_key")
                     .setThumbnail('attachment://Sts_FIOff.png')
-                    .setDescription("1")
+                    .setDescription("A key to an office room at the city's financial institution")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7173,55 +7173,40 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "1",
+                            value: "Office on the second floor (Industrial zone), towards the 'Sewer River' extraction",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "1",
+                            value: "5x PC, 1x sport bag, loose loot (valuables, provisions, barter items)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "1",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽11,982",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "1",
+                            value: "B",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "1",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "1",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "1",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_FIOff], files: ['././Images/StreetsofTarkov/Sts_FIOff.png'] });
-                    break; /*
+                    break;
                 
                 case "Financial Institution Small Office Key":
                     const Sts_FISOff = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Financial Institution Small Office Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Financial_institution_small_office_key")
                     .setThumbnail('attachment://Sts_FISOff.png')
-                    .setDescription("")
+                    .setDescription("A key to a small office room at the city's financial institution")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7230,43 +7215,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Office on the first floor (Industrial zone), towards the 'Sewer River' extraction",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "2x PC, 1x safe, 1x jacket, 3x drawer",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽12,042",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "B",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_FISOff], files: ['././Images/StreetsofTarkov/Sts_FISOff.png'] });
@@ -7276,9 +7246,9 @@ module.exports = {
                     const Sts_CarOff = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Car Dealership Director's Office Room Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Car_dealership_director%27s_office_room_key")
                     .setThumbnail('attachment://Sts_CarOff.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the offices in the LexOs car dealership")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7287,42 +7257,32 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Office in the second floot section of the LexOs car dealership (Concordia zone)",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "2x drawer, 1x PC, loose loot (valuables)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Your Car Needs a Service'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽47,313",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
                         },
                         {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
+                            name: "Additional Notes",
+                            value: "Requires a 'Car dealership closed section key' to enter",
                             inline: false
                         },
                     )
@@ -7333,9 +7293,9 @@ module.exports = {
                     const Sts_CarClose = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Car Dealership Closed Section Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Car_dealership_closed_section_key")
                     .setThumbnail('attachment://Sts_CarClose.png')
-                    .setDescription("")
+                    .setDescription("A key to the closed section on the second floor of the LexOs car dealership")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7344,43 +7304,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Grate door on the second floor of the dealership (Concordia zone)",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x weapon box (5x5), 1x weapon box (6x3), 2x weapon box (5x2), 1x PC, 1x technical supply crate, 1x wooden crate, loose loot (weapon mods, barter items)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Your Car Needs a Service'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽573,151",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "A",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_CarClose], files: ['././Images/StreetsofTarkov/Sts_CarClose.png'] });
@@ -7390,9 +7335,9 @@ module.exports = {
                     const Sts_Mngrs = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Store Manager's Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Store_manager%27s_key")
                     .setThumbnail('attachment://Sts_Mngrs.png')
-                    .setDescription("")
+                    .setDescription("A key to the manager's office room inside one of the city stores")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7401,43 +7346,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "'Sparja' store (Concordia zone), 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x PC, 2x drawer, 1x safe, 1x sport bag",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽12,036",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Mngrs], files: ['././Images/StreetsofTarkov/Sts_Mngrs.png'] });
@@ -7447,9 +7377,9 @@ module.exports = {
                     const Sts_DepOff = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Supply Department Director's Office Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Supply_department_director%27s_office_key")
                     .setThumbnail('attachment://Sts_DepOff.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the offices in the 'Aspect LLC' building")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7458,43 +7388,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Building next to the LexOs dealership (Concordia zone), 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x safe (locked), 1x drawer, loose loot (provisions, barter items)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽5,946",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_DepOff], files: ['././Images/StreetsofTarkov/Sts_DepOff.png'] });
@@ -7504,9 +7419,9 @@ module.exports = {
                     const Sts_Archive = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Archive Room Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Archive_room_key")
                     .setThumbnail('attachment://Sts_Archive.png')
-                    .setDescription("")
+                    .setDescription("A key to the archive room inside one of the buildings in the central part of the city")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7515,43 +7430,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Zmeevsky 3A building (Residential zone), 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x safe (locked), 2x drawer",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽12,737",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "D",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Archive], files: ['././Images/StreetsofTarkov/Sts_Archive.png'] });
@@ -7561,9 +7461,9 @@ module.exports = {
                     const Sts_IronG = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Iron Gate Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Iron_gate_key")
                     .setThumbnail('attachment://Sts_IronG.png')
-                    .setDescription("")
+                    .setDescription("A key to an unknown iron gate")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7572,43 +7472,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Grate doors #1, 2 and 4, Chekannaya 15 apartment building (Residential zone), 3rd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "2x dead scav, loose loot (valuables, provisions, stimulants, electronics, ammo)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'House Arrest - Part 1'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽24,660",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "B",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_IronG], files: ['././Images/StreetsofTarkov/Sts_IronG.png'] });
@@ -7618,9 +7503,9 @@ module.exports = {
                     const Sts_StairL = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Stair Landing Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Stair_landing_key")
                     .setThumbnail('attachment://Sts_StairL.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the stair landings of the Chekannaya Street 15 building")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7629,42 +7514,32 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Chekannaya 15 building (Residential zone), 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "Nothing",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽6,157",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "D",
                             inline: true
                         },
                         {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
+                            name: "Additional Notes",
+                            value: "Only accessible via the west staircase from the third floor through a hole in the floor of cell #5. The debris on the second floor hallway can only be passed by proning",
                             inline: false
                         },
                     )
@@ -7675,9 +7550,9 @@ module.exports = {
                     const Sts_CrgoCon = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Cargo Container Mesh Door Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Cargo_container_mesh_door_key")
                     .setThumbnail('attachment://Sts_CrgoCon.png')
-                    .setDescription("")
+                    .setDescription("A key to the metal gate in one of the shipping containers")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7686,43 +7561,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Grate door inside a shipping container between the LexOs dealership and the car workshop (Concordia zone)",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x grenade box, 1x weapon box (5x5), 1x weapon box (5x2), loose loot (weapon mods)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽13,131",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_CrgoCon], files: ['././Images/StreetsofTarkov/Sts_CrgoCon.png'] });
@@ -7732,9 +7592,9 @@ module.exports = {
                     const Sts_AbndFacMrk = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Abandoned Factory Marked Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Abandoned_factory_marked_key")
                     .setThumbnail('attachment://Sts_AbndFacMrk.png')
-                    .setDescription("")
+                    .setDescription("A mysterious key to an unknown door at the abandoned city factory. There is a strange symbol scratched onto it")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7743,43 +7603,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Northern abandoned factory, 2nd floor (Industrial zone)",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "2x weapon box (5x2), loose loot (multiple very rare loot items, weapons, containers)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Broadcast - Part 4'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽630,000",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "S",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_AbndFacMrk], files: ['././Images/StreetsofTarkov/Sts_AbndFacMrk.png'] });
@@ -7789,9 +7634,9 @@ module.exports = {
                     const Sts_CnstrcBunk = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Construction Site Bunkhouse Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Construction_site_bunkhouse_key")
                     .setThumbnail('attachment://Sts_CnstrcBunk.png')
-                    .setDescription("")
+                    .setDescription("A key to the locked bunkhouse at the city construction site")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7800,43 +7645,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Two-story bunkhouse, 2nd floor (Concordia zone)",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x medcase, 2x jacket, 1x sport bag, loose loot (meds)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽8,272",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_CnstrcBunk], files: ['././Images/StreetsofTarkov/Sts_CnstrcBunk.png'] });
@@ -7846,9 +7676,9 @@ module.exports = {
                     const Sts_ConSec = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Concordia Security Room Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Concordia_security_room_key")
                     .setThumbnail('attachment://Sts_ConSec.png')
-                    .setDescription("")
+                    .setDescription("A key to the security room inside the Concordia building")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7857,43 +7687,29 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Basement parking garage, door with the flare outside\n" +
+                            "(Concordia zone)",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "2x PC, 1x safe, loose loot (weapon mods)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Surveillance'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽45,625",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "B",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_ConSec], files: ['././Images/StreetsofTarkov/Sts_ConSec.png'] });
@@ -7903,9 +7719,9 @@ module.exports = {
                     const Sts_Con34 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Concordia Apartment 34 Room Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Concordia_apartment_34_room_key")
                     .setThumbnail('attachment://Sts_Con34.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the rooms in apartment 34 inside the Concordia building")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7914,43 +7730,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Concordia building, 3rd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "Loose loot (valuables)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽7,707",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Con34], files: ['././Images/StreetsofTarkov/Sts_Con34.png'] });
@@ -7960,9 +7761,9 @@ module.exports = {
                     const Sts_Con64 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Concordia Apartment 64 Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Concordia_apartment_64_key")
                     .setThumbnail('attachment://Sts_Con64.png')
-                    .setDescription("")
+                    .setDescription("A key to the premium apartment inside the Concordia building")
                     .addFields (
                         {
                             name: "Map/s",
@@ -7971,43 +7772,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Concordia building, 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "Loose loot (valuables, provisions, ammo)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽33,392",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "B",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Con64], files: ['././Images/StreetsofTarkov/Sts_Con64.png'] });
@@ -8017,9 +7803,9 @@ module.exports = {
                     const Sts_Con64Off = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Concordia Apartment 64 Office Room Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Concordia_apartment_64_office_room_key")
                     .setThumbnail('attachment://Sts_Con64Off.png')
-                    .setDescription("")
+                    .setDescription("A key to the office room of the premium apartment inside the Concordia building")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8028,42 +7814,32 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Office room inside apartment 64, 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x PC, loose loot (electronics)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽41,461",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "B",
                             inline: true
                         },
                         {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
+                            name: "Additional Notes",
+                            value: "Requires a Concordia apartment 64 key to enter",
                             inline: false
                         },
                     )
@@ -8074,9 +7850,9 @@ module.exports = {
                     const Sts_Hot206 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Hotel Room 206 Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Hotel_room_206_key")
                     .setThumbnail('attachment://Sts_Hot206.png')
-                    .setDescription("")
+                    .setDescription("A key to Pinewood hotel room 206")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8085,43 +7861,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Pinewood hotel, 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x dead scav, 1x locked safe (contains no loot, can be unlocked with USEC second safe key), loose loot (provisions, barter items)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Debtor'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽13,579",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Hot206], files: ['././Images/StreetsofTarkov/Sts_Hot206.png'] });
@@ -8131,9 +7892,9 @@ module.exports = {
                     const Sts_Hot215 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Hotel Room 215 Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Hotel_room_215_key")
                     .setThumbnail('attachment://Sts_Hot215.png')
-                    .setDescription("")
+                    .setDescription("A key to Pinewood hotel room 215")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8142,43 +7903,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Pinewood hotel, 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x plastic suitcase (locked), loose loot (provisions, barter items)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Watching You'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽10,280",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "D",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Hot215], files: ['././Images/StreetsofTarkov/Sts_Hot215.png'] });
@@ -8188,9 +7934,9 @@ module.exports = {
                     const Sts_Chek15 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Chekannaya 15 Apartment Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Chekannaya_15_apartment_key")
                     .setThumbnail('attachment://Sts_Chek15.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the apartments located at Chekannaya 15")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8199,43 +7945,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Chekannaya 15 (Residential zone), 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "Loose loot (valuables, electronics, stimulants)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'House Arrest - Part 2'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽945,000",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "A",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Chek15], files: ['././Images/StreetsofTarkov/Sts_Chek15.png'] });
@@ -8245,9 +7976,9 @@ module.exports = {
                     const Sts_PriSkyb = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Primorsky 46-48 Skybridge Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Primorsky_46-48_skybridge_key")
                     .setThumbnail('attachment://Sts_PriSkyb.png')
-                    .setDescription("")
+                    .setDescription("A key to the skybridge linking Primorsky 46-48, leads to the apartment of the ballet master")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8256,42 +7987,35 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Primorsky 46 (Residential zone), across the skybridge",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x PC, loose loot (valuables, electronics)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Ballet Lover'\n" +
+                            "'Audiophile'\n" +
+                            "'Spotter'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽3,235",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "B",
                             inline: true
                         },
                         {
                             name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
+                            value: "Inside the 'Brodion' pub, on the shelf behind the bar counter\n" +
+                            "A single key is guaranteed to spawn every raid",
                             inline: false
                         },
                     )
@@ -8302,9 +8026,9 @@ module.exports = {
                     const Sts_Pri48 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Primorsky 48 Apartment Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Primorsky_48_apartment_key")
                     .setThumbnail('attachment://Sts_Pri48.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the apartments at Primorsky Ave 48")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8313,43 +8037,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Primorsky 48 (Residential zone), 3rd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "Loose loot (valuables, electronics)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽12,187",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Pri48], files: ['././Images/StreetsofTarkov/Sts_Pri48.png'] });
@@ -8359,9 +8068,9 @@ module.exports = {
                     const Sts_BckHide = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Backup Hideout Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Backup_hideout_key")
                     .setThumbnail('attachment://Sts_BckHide.png')
-                    .setDescription("")
+                    .setDescription("A key to the Informant's second hideout")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8370,42 +8079,32 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Hideout below the cinema stairs",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x wooden crate, 1x sport bag, 1x toolbox, loose loot (valuables, electronics)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Missing Informant'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽1,072",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
                         },
                         {
                             name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
+                            value: "In a sport bag located in ana electrical operation room behind the small cinema. Guaranteed spawn every raid",
                             inline: false
                         },
                     )
@@ -8416,9 +8115,9 @@ module.exports = {
                     const Sts_Zme38 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Zmeevsky 3 Apartment 8 Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Zmeevsky_3_apartment_8_key")
                     .setThumbnail('attachment://Sts_Zme38.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the apartments at Zmeevsky 3")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8427,43 +8126,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Zmeevsky 3 (Residential zone), 2nd floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x sport bag, 1x jacket, loose loot (valuables)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽9,028",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Zme38], files: ['././Images/StreetsofTarkov/Sts_Zme38.png'] });
@@ -8473,9 +8157,9 @@ module.exports = {
                     const Sts_Zme520 = new EmbedBuilder()   
                     .setColor("#ffa120")
                     .setTitle("Zmeevsky 5 Apartment 20 Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Zmeevsky_5_apartment_20_key")
                     .setThumbnail('attachment://Sts_Zme520.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the apartments at Zmeevsky 5")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8484,47 +8168,32 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "Zmeevsky 5 (Residential zone), 5th floor",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "1x sport bag, loose loot (provisions, electronics)",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽9,394",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "C",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Sts_Zme520], files: ['././Images/StreetsofTarkov/Sts_Zme520.png'] });
-                    break; */
+                    break;
 
 /*------------ Unused Keys -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             	case "Folding Car Key":
