@@ -180,7 +180,42 @@ module.exports = {
                             "Radar Station Commandant Room Key",
                             "Conference Room Key",
                             "Operating Room Key",
-                            "Rogue USEC Barrack Key"
+                            "Rogue USEC Barrack Key",
+
+                            /*Streets of Tarkov Keys*/
+                            "Financial Institution Office Key",
+                            "Financial Institution Small Office Key",
+                            "Car Dealership Director's Office Room Key",
+                            "Car Dealership Closed Section Key",
+                            "Store Manager's Key",
+                            "Supply Department Director's Office Key",
+                            "Archive Room Key",
+                            "Iron Gate Key",
+                            "Stair Landing Key",
+                            "Cargo Container Mesh Door Key",
+                            "Abandoned Factory Marked Key",
+                            "Construction Site Bunkhouse Key",
+                            "Concordia Security Room Key",
+                            "Concordia Apartment 34 Room Key",
+                            "Concordia Apartment 64 Key",
+                            "Concordia Apartment 64 Office Room Key",
+                            "Hotel Room 206 Key",
+                            "Hotel Room 215 Key",
+                            "Chekannaya 15 Apartment Key",
+                            "Primorsky 46-48 Skybridge Key",
+                            "Primorsky 48 Apartment Key",
+                            "Backup Hideout Key",
+                            "Zmeevsky 3 Apartment 8 Key",
+                            "Zmeevsky 5 Apartment 20 Key",
+
+                            /*Unused Keys*/
+                            "Folding Car Key",
+                            "VAZ Car Key",
+                            "Weapon Safe Key",
+                            "Store Safe Key",
+                            "RB-PP Key",
+                            "Missam Forklift Key",
+                            "Primorsky Ave Apartment Key",
                             ];
 
             let filtered = choices;
@@ -6617,6 +6652,7 @@ module.exports = {
                     )
                     await interaction.reply({ embeds: [Lgh_HiSiHse], files: ['././Images/Lighthouse/Lgh_HiSiHse.png'] });
                     break;
+                
                 case "Merin Car Trunk Key":
                     const Lgh_Merin = new EmbedBuilder()   
                     .setColor("#fff460")
@@ -6658,6 +6694,7 @@ module.exports = {
                     )
                     await interaction.reply({ embeds: [Lgh_Merin], files: ['././Images/Lighthouse/Lgh_Merin.png'] });
                     break;
+                
                 case "Police Truck Cabin Key":
                     const Lgh_Police = new EmbedBuilder()   
                     .setColor("#fff460")
@@ -6699,7 +6736,8 @@ module.exports = {
                     )
                     await interaction.reply({ embeds: [Lgh_Police], files: ['././Images/Lighthouse/Lgh_Police.png'] });
                     break;
-        		case "Rogue USEC Stash Key":
+        		
+                case "Rogue USEC Stash Key":
                     const Lgh_UStash = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Rogue USEC Stash Key")
@@ -6740,7 +6778,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_UStash], files: ['././Images/Lighthouse/Lgh_UStash.png'] });
                     break;
-        		case "Rogue USEC Workshop Key":
+        		
+                case "Rogue USEC Workshop Key":
                     const Lgh_UWrksh = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Rogue USEC Workshop Key")
@@ -6781,7 +6820,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_UWrksh], files: ['././Images/Lighthouse/Lgh_UWrksh.png'] });
                     break;
-        		case "USEC First Safe Key":
+        		
+                case "USEC First Safe Key":
                     const Lgh_UFSafe = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("USEC First Safe Key")
@@ -6822,7 +6862,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_UFSafe], files: ['././Images/Lighthouse/Lgh_UFSafe.png'] });
                     break;	
-            	case "USEC Second Safe Key":
+            	
+                case "USEC Second Safe Key":
                     const Lgh_USSafe = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("USEC Second Safe Key")
@@ -6863,7 +6904,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_USSafe], files: ['././Images/Lighthouse/Lgh_USSafe.png'] });
                     break;	
-            	case "Shared Bedroom Marked Key":
+            	
+                case "Shared Bedroom Marked Key":
                     const Lgh_BedMrkd = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Shared Bedroom Marked Key")
@@ -6904,7 +6946,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_BedMrkd], files: ['././Images/Lighthouse/Lgh_BedMrkd.png'] });
                     break;	
-            	case "Water Treatment Plant Storage Room Key":
+            	
+                case "Water Treatment Plant Storage Room Key":
                     const Lgh_WTPSto = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Water Treatment Plant Storage Room Key")
@@ -6945,7 +6988,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_WTPSto], files: ['././Images/Lighthouse/Lgh_WTPSto.png'] });
                     break;	
-            	case "Radar Station Commandant Room Key":
+            	
+                case "Radar Station Commandant Room Key":
                     const Lgh_RdrSta = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Radar Station Commandant Room Key")
@@ -6986,7 +7030,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_RdrSta], files: ['././Images/Lighthouse/Lgh_RdrSta.png'] });
                     break;	
-            	case "Conference Room Key":
+            	
+                case "Conference Room Key":
                     const Lgh_CnfrRoom = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Conference Room Key")
@@ -7027,7 +7072,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_CnfrRoom], files: ['././Images/Lighthouse/Lgh_CnfrRoom.png'] });
                     break;	
-            	case "Operating Room Key":
+            	
+                case "Operating Room Key":
                     const Lgh_OpRoom = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Operating Room Key")
@@ -7068,7 +7114,8 @@ module.exports = {
                     )
 		            await interaction.reply({ embeds: [Lgh_OpRoom], files: ['././Images/Lighthouse/Lgh_OpRoom.png'] });
                     break;	
-            	case "Rogue USEC Barrack Key":
+            	
+                case "Rogue USEC Barrack Key":
                     const Lgh_UBrrck = new EmbedBuilder()   
                     .setColor("#fff460")
                     .setTitle("Rogue USEC Barrack Key")
@@ -7108,7 +7155,1776 @@ module.exports = {
                         },
                     )
 		            await interaction.reply({ embeds: [Lgh_UBrrck], files: ['././Images/Lighthouse/Lgh_UBrrck.png'] });
-                    break;	
+                    break;
+                    
+/*------------ Streets of Tarkov Keys ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+                case "Financial Institution Office Key":
+                    const Sts_FIOff = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Financial Institution Office Key")
+                    .setURL("https://espn.com")
+                    .setThumbnail('attachment://Sts_FIOff.png')
+                    .setDescription("1")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "1",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "1",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "1",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "1",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "1",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "1",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "1",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_FIOff], files: ['././Images/StreetsofTarkov/Sts_FIOff.png'] });
+                    break; /*
+                
+                case "Financial Institution Small Office Key":
+                    const Sts_FISOff = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Financial Institution Small Office Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_FISOff.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_FISOff], files: ['././Images/StreetsofTarkov/Sts_FISOff.png'] });
+                    break;
+                
+                case "Car Dealership Director's Office Room Key":
+                    const Sts_CarOff = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Car Dealership Director's Office Room Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_CarOff.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_CarOff], files: ['././Images/StreetsofTarkov/Sts_CarOff.png'] });
+                    break;
+                
+                case "Car Dealership Closed Section Key":
+                    const Sts_CarClose = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Car Dealership Closed Section Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_CarClose.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_CarClose], files: ['././Images/StreetsofTarkov/Sts_CarClose.png'] });
+                    break;
+                
+                case "Store Manager's Key":
+                    const Sts_Mngrs = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Store Manager's Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Mngrs.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Mngrs], files: ['././Images/StreetsofTarkov/Sts_Mngrs.png'] });
+                    break;
+                
+                case "Supply Department Director's Office Key":
+                    const Sts_DepOff = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Supply Department Director's Office Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_DepOff.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_DepOff], files: ['././Images/StreetsofTarkov/Sts_DepOff.png'] });
+                    break;
+                
+                case "Archive Room Key":
+                    const Sts_Archive = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Archive Room Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Archive.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Archive], files: ['././Images/StreetsofTarkov/Sts_Archive.png'] });
+                    break;
+                
+                case "Iron Gate Key":
+                    const Sts_IronG = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Iron Gate Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_IronG.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_IronG], files: ['././Images/StreetsofTarkov/Sts_IronG.png'] });
+                    break;
+                
+                case "Stair Landing Key":
+                    const Sts_StairL = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Stair Landing Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_StairL.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_StairL], files: ['././Images/StreetsofTarkov/Sts_StairL.png'] });
+                    break;
+                
+                case "Cargo Container Mesh Door Key":
+                    const Sts_CrgoCon = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Cargo Container Mesh Door Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_CrgoCon.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_CrgoCon], files: ['././Images/StreetsofTarkov/Sts_CrgoCon.png'] });
+                    break;
+                
+                case "Abandoned Factory Marked Key":
+                    const Sts_AbndFacMrk = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Abandoned Factory Marked Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_AbndFacMrk.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_AbndFacMrk], files: ['././Images/StreetsofTarkov/Sts_AbndFacMrk.png'] });
+                    break;
+                
+                case "Construction Site Bunkhouse Key":
+                    const Sts_CnstrcBunk = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Construction Site Bunkhouse Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_CnstrcBunk.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_CnstrcBunk], files: ['././Images/StreetsofTarkov/Sts_CnstrcBunk.png'] });
+                    break;
+                
+                case "Concordia Security Room Key":
+                    const Sts_ConSec = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Concordia Security Room Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_ConSec.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_ConSec], files: ['././Images/StreetsofTarkov/Sts_ConSec.png'] });
+                    break;
+                
+                case "Concordia Apartment 34 Room Key":
+                    const Sts_Con34 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Concordia Apartment 34 Room Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Con34.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Con34], files: ['././Images/StreetsofTarkov/Sts_Con34.png'] });
+                    break;
+                
+                case "Concordia Apartment 64 Key":
+                    const Sts_Con64 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Concordia Apartment 64 Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Con64.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Con64], files: ['././Images/StreetsofTarkov/Sts_Con64.png'] });
+                    break;
+                
+                case "Concordia Apartment 64 Office Room Key":
+                    const Sts_Con64Off = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Concordia Apartment 64 Office Room Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Con64Off.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Con64Off], files: ['././Images/StreetsofTarkov/Sts_Con64Off.png'] });
+                    break;
+                
+                case "Hotel Room 206 Key":
+                    const Sts_Hot206 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Hotel Room 206 Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Hot206.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Hot206], files: ['././Images/StreetsofTarkov/Sts_Hot206.png'] });
+                    break;
+                
+                case "Hotel Room 215 Key":
+                    const Sts_Hot215 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Hotel Room 215 Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Hot215.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Hot215], files: ['././Images/StreetsofTarkov/Sts_Hot215.png'] });
+                    break;
+                
+                case "Chekannaya 15 Apartment Key":
+                    const Sts_Chek15 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Chekannaya 15 Apartment Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Chek15.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Chek15], files: ['././Images/StreetsofTarkov/Sts_Chek15.png'] });
+                    break;
+                
+                case "Primorsky 46-48 Skybridge Key":
+                    const Sts_PriSkyb = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Primorsky 46-48 Skybridge Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_PriSkyb.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_PriSkyb], files: ['././Images/StreetsofTarkov/Sts_PriSkyb.png'] });
+                    break;
+                
+                case "Primorsky 48 Apartment Key":
+                    const Sts_Pri48 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Primorsky 48 Apartment Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Pri48.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Pri48], files: ['././Images/StreetsofTarkov/Sts_Pri48.png'] });
+                    break;
+                
+                case "Backup Hideout Key":
+                    const Sts_BckHide = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Backup Hideout Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_BckHide.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_BckHide], files: ['././Images/StreetsofTarkov/Sts_BckHide.png'] });
+                    break;
+                
+                case "Zmeevsky 3 Apartment 8 Key":
+                    const Sts_Zme38 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Zmeevsky 3 Apartment 8 Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Zme38.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Zme38], files: ['././Images/StreetsofTarkov/Sts_Zme38.png'] });
+                    break;
+                
+                case "Zmeevsky 5 Apartment 20 Key":
+                    const Sts_Zme520 = new EmbedBuilder()   
+                    .setColor("#ffa120")
+                    .setTitle("Zmeevsky 5 Apartment 20 Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Sts_Zme520.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Streets of Tarkov",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Sts_Zme520], files: ['././Images/StreetsofTarkov/Sts_Zme520.png'] });
+                    break; */
+
+/*------------ Unused Keys -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            	case "Folding Car Key":
+                    const Na_FCK = new EmbedBuilder()   
+                    .setColor("#808080")
+                    .setTitle("Folding Car Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Na_FCK.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Key currently does not go to any map",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Na_FCK], files: ['././Images/Unused/Na_FCK.png'] });
+                    break;
+
+                case "VAZ Car Key":
+                    const Na_VAZ = new EmbedBuilder()   
+                    .setColor("#808080")
+                    .setTitle("VAZ Car Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Na_VAZ.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Key currently does not go to any map",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Na_VAZ], files: ['././Images/Unused/Na_VAZ.png'] });
+                    break;
+
+                case "Weapon Safe Key":
+                    const Na_WeSafe = new EmbedBuilder()   
+                    .setColor("#808080")
+                    .setTitle("Weapon Safe Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Na_WeSafe.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Key currently does not go to any map",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Na_WeSafe], files: ['././Images/Unused/Na_WeSafe.png'] });
+                    break;
+
+                case "Store Safe Key":
+                    const Na_StoSafe = new EmbedBuilder()   
+                    .setColor("#808080")
+                    .setTitle("Store Safe Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Na_StoSafe.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Key currently does not go to any map",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Na_StoSafe], files: ['././Images/Unused/Na_StoSafe.png'] });
+                    break;
+
+                case "RB-PP Key":
+                    const Na_RBPP = new EmbedBuilder()   
+                    .setColor("#808080")
+                    .setTitle("RB-PP Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Na_RBPP.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Key currently does not go to any map",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Na_RBPP], files: ['././Images/Unused/Na_RBPP.png'] });
+                    break;
+                    
+                case "Missam Forklift Key":
+                    const Na_Missam = new EmbedBuilder()   
+                    .setColor("#808080")
+                    .setTitle("Missam Forklift Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Na_Missam.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Key currently does not go to any map",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Na_Missam], files: ['././Images/Unused/Na_Missam.png'] });
+                    break;
+
+                case "Primorsky Ave Apartment Key":
+                    const Na_PriAveApt = new EmbedBuilder()   
+                    .setColor("#808080")
+                    .setTitle("Primorsky Ave Apartment Key")
+                    .setURL("")
+                    .setThumbnail('attachment://Na_PriAveApt.png')
+                    .setDescription("")
+                    .addFields (
+                        {
+                            name: "Map/s",
+                            value: "Key currently does not go to any map",
+                            inline: true
+                        },
+                        {
+                            name: "Lock Location",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Potential Loot",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Used in Quest",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "Vendor Price",
+                            value: "₽",
+                            inline: true
+                        },
+                        {
+                            name: "Ranking",
+                            value: "",
+                            inline: true
+                        },
+                        {
+                            name: "World Spawns",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Barter",
+                            value: "",
+                            inline: false
+                        },
+                        {
+                            name: "Extraction",
+                            value: "",
+                            inline: false
+                        },
+                    )
+		            await interaction.reply({ embeds: [Na_PriAveApt], files: ['././Images/Unused/Na_PriAveApt.png'] });
+                    break;		 */   	  		    	        		        		        		        		        		        
             }
         },
     
