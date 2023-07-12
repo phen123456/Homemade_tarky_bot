@@ -8195,14 +8195,14 @@ module.exports = {
 		            await interaction.reply({ embeds: [Sts_Zme520], files: ['././Images/StreetsofTarkov/Sts_Zme520.png'] });
                     break;
 
-/*------------ Unused Keys -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*------------ Unused Keys -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
             	case "Folding Car Key":
                     const Na_FCK = new EmbedBuilder()   
                     .setColor("#808080")
                     .setTitle("Folding Car Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Folding_car_key")
                     .setThumbnail('attachment://Na_FCK.png')
-                    .setDescription("")
+                    .setDescription("A folding car key with locking buttons")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8211,43 +8211,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽945",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "F",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Na_FCK], files: ['././Images/Unused/Na_FCK.png'] });
@@ -8257,9 +8242,9 @@ module.exports = {
                     const Na_VAZ = new EmbedBuilder()   
                     .setColor("#808080")
                     .setTitle("VAZ Car Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/VAZ_car_key")
                     .setThumbnail('attachment://Na_VAZ.png')
-                    .setDescription("")
+                    .setDescription("A key to one of the VAZ cars commonly known as Shestyorka ('the sixth one')")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8268,43 +8253,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽1,209",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "F",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Na_VAZ], files: ['././Images/Unused/Na_VAZ.png'] });
@@ -8314,9 +8284,9 @@ module.exports = {
                     const Na_WeSafe = new EmbedBuilder()   
                     .setColor("#808080")
                     .setTitle("Weapon Safe Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Weapon_safe_key")
                     .setThumbnail('attachment://Na_WeSafe.png')
-                    .setDescription("")
+                    .setDescription("A key from some weapon safe")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8325,43 +8295,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽732",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "F",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Na_WeSafe], files: ['././Images/Unused/Na_WeSafe.png'] });
@@ -8371,9 +8326,9 @@ module.exports = {
                     const Na_StoSafe = new EmbedBuilder()   
                     .setColor("#808080")
                     .setTitle("Store Safe Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Store_safe_key")
                     .setThumbnail('attachment://Na_StoSafe.png')
-                    .setDescription("")
+                    .setDescription("A key to the safe inside of the village stores, located somewhere near the Azure Coast sanatorium")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8382,43 +8337,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽1,953",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "F",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Na_StoSafe], files: ['././Images/Unused/Na_StoSafe.png'] });
@@ -8428,9 +8368,9 @@ module.exports = {
                     const Na_RBPP = new EmbedBuilder()   
                     .setColor("#808080")
                     .setTitle("RB-PP Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/RB-PP_key")
                     .setThumbnail('attachment://Na_RBPP.png')
-                    .setDescription("")
+                    .setDescription("A key to the Radar Station bomb shelter under the Federal State Reserve Agency base. Doesn't seem to be actually used for anything though, at least for now")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8439,43 +8379,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽3,150",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "F",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Na_RBPP], files: ['././Images/Unused/Na_RBPP.png'] });
@@ -8485,9 +8410,9 @@ module.exports = {
                     const Na_Missam = new EmbedBuilder()   
                     .setColor("#808080")
                     .setTitle("Missam Forklift Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Missam_forklift_key")
                     .setThumbnail('attachment://Na_Missam.png')
-                    .setDescription("")
+                    .setDescription("A Missam forklift key. The name of the former owner is written on the ribbon")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8496,43 +8421,28 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "'Collector'",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽18,900",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "F",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Na_Missam], files: ['././Images/Unused/Na_Missam.png'] });
@@ -8542,9 +8452,9 @@ module.exports = {
                     const Na_PriAveApt = new EmbedBuilder()   
                     .setColor("#808080")
                     .setTitle("Primorsky Ave Apartment Key")
-                    .setURL("")
+                    .setURL("https://escapefromtarkov.fandom.com/wiki/Primorsky_Ave_apartment_key")
                     .setThumbnail('attachment://Na_PriAveApt.png')
-                    .setDescription("")
+                    .setDescription("Choreographer key at Primorsky 48")
                     .addFields (
                         {
                             name: "Map/s",
@@ -8553,47 +8463,32 @@ module.exports = {
                         },
                         {
                             name: "Lock Location",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Potential Loot",
-                            value: "",
+                            value: "N/A",
                             inline: false
                         },
                         {
                             name: "Used in Quest",
-                            value: "",
+                            value: "N/A",
                             inline: true
                         },
                         {
                             name: "Vendor Price",
-                            value: "₽",
+                            value: "₽3,150",
                             inline: true
                         },
                         {
                             name: "Ranking",
-                            value: "",
+                            value: "F",
                             inline: true
-                        },
-                        {
-                            name: "World Spawns",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Barter",
-                            value: "",
-                            inline: false
-                        },
-                        {
-                            name: "Extraction",
-                            value: "",
-                            inline: false
                         },
                     )
 		            await interaction.reply({ embeds: [Na_PriAveApt], files: ['././Images/Unused/Na_PriAveApt.png'] });
-                    break;		 */   	  		    	        		        		        		        		        		        
+                    break; 		    	        		        		        		        		        		        
             }
         },
     
